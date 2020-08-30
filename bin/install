@@ -16,16 +16,14 @@ install_ht() {
   mkdir -p "${bin_install_path}"
 
   echo "Downloading ht from ${download_url} to ${binary_path}"
-  curl -L "${download_url}" -o "${binary_path}.tar.gz"
-  tar -xzf "${binary_path}.tar.gz" -C "${bin_install_path}"
+  curl -L "${download_url}" -o "${binary_path}"
   chmod +x "${binary_path}"
-  rm "${binary_path}.tar.gz"
 }
 
 
 get_filename() {
   local platform="$1"
-  echo "ht${version}_${platform}.tar.gz"
+  echo "httpie-go_${platform}"
 }
 
 get_download_url() {
