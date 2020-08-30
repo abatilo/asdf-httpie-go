@@ -1,6 +1,6 @@
 # asdf-httpie-go
 
-[![Build Status](https://github.com/nojima/asdf-httpie-go/workflows/main/badge.svg)](https://github.com/nojima/asdf-httpie-go/actions)
+[![Test asdf-httpie-go](https://github.com/abatilo/asdf-httpie-go/workflows/Test%20asdf-httpie-go/badge.svg)](https://github.com/abatilo/asdf-httpie-go/actions?query=workflow%3A%22Test+asdf-httpie-go%22)
 
 [nojima/httpie-go](https://github.com/nojima/httpie-go) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
